@@ -48,3 +48,11 @@ z = 1
 print bool(z) # This will pring True as z has a value of 1
 z = 0
 print bool(z) # This will pring False as z has a value of 0
+
+'''cmp(a,b) function return positive if a>b. returns negative if a<b or returns 0 if a=b'''
+a,b = 1,4
+print cmp(a,b) #will print negative
+a,b = 2,2
+print cmp(a,b) #will print 0 as both a and b are same
+a,b = 4,1
+print cmp(a,b) #will print positive
