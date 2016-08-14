@@ -33,3 +33,7 @@ theList = []
 print any(theList) # This will print False as it's emplty list.
 theList = [False,False,False,False]
 print any(theList) # This will print False as all elements are False.
+
+'''bin(y) Converts an integer number to a binary string.'''
+y = 8
+print bin(y) #this will print 0b1000 as this is binary value of 8
