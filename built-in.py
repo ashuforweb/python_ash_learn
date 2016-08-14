@@ -37,3 +37,14 @@ print any(theList) # This will print False as all elements are False.
 '''bin(y) Converts an integer number to a binary string.'''
 y = 8
 print bin(y) #this will print 0b1000 as this is binary value of 8
+
+'''bool() function returns boolean value of argument will be converted using the standard
+Truth testing procedures'''
+z = 'Test'
+print bool(z) # This will print True as there is something in string z
+z = ''
+print bool(z) # This will print False as z is empty string
+z = 1
+print bool(z) # This will pring True as z has a value of 1
+z = 0
+print bool(z) # This will pring False as z has a value of 0
