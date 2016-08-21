@@ -5,3 +5,7 @@ listTest = []
 print listTest #will retrun empty list
 listTest.append(8)
 print listTest # will return list with element 8
+
+'''extend(L) takes List as an argument and return joined list'''
+listTest.extend(listTest)
+print listTest #will print two elements 8,8
