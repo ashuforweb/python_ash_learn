@@ -1,22 +1,26 @@
 #Python lists and methods
 '''append(x) this method takes element as an argument and add the element into
 end of the list. For Example if you need to add 8 in existing list listTest'''
-listTest = []
-print listTest #will retrun empty list
+listTest = [1,2,3]
 listTest.append(8)
-print listTest # will return list with element 8
+print listTest # will return list with elements 1,2,3,8
 
 '''extend(L) takes List as an argument and return joined list'''
 listTest.extend(listTest)
-print listTest #will print two elements 8,8
+print listTest #will print 1,2,3,8,1,2,3,8
 
 '''insert(i,x) takes indices and element as arguments, and inserts element at
 given indices and pushes other elements down. For example if element is add at
 location 2 of length 2 list 2nd element will now become 3rd element. indices
 starts at 0'''
 listTest.insert(1,5)
-print listTest
+print listTest #will print 1,5,2,3,8,1,2,3,8
 
 '''remove(x) this method will remove the item which has value equal to x'''
 listTest.remove(8) #will remove first element with value 8
-print listTest #will print list with 2 element
+print listTest #will print list 1,5,2,3,1,2,3,8
+
+'''pop([i]) will remove the element at indices i; i is optional, if i is not
+passed then last element will be removed'''
+listTest.pop(4) #will remove element at postion 5
+print listTest #will print 1,5,2,3,2,3,8
