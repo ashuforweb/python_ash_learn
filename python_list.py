@@ -35,3 +35,8 @@ print listTest.index(5) #will print 1 as 5 is at position 2
 
 '''count(x) returns number of times x appeared in list'''
 print listTest.count(3) #will return 2 as 3 appears twice.
+
+
+'''reverse() will return the list in reverse order'''
+listTest.reverse() #will reverse the list in-Place
+print listTest #will print reversed list
