@@ -56,3 +56,8 @@ a,b = 2,2
 print cmp(a,b) #will print 0 as both a and b are same
 a,b = 4,1
 print cmp(a,b) #will print positive
+
+
+
+c = complex(1,2)
+print c
