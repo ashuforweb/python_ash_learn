@@ -16,3 +16,7 @@ location 2 of length 2 list 2nd element will now become 3rd element. indices
 starts at 0'''
 listTest.insert(1,5)
 print listTest
+
+'''remove(x) this method will remove the item which has value equal to x'''
+listTest.remove(8) #will remove first element with value 8
+print listTest #will print list with 2 element
