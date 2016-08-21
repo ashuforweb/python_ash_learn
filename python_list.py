@@ -24,3 +24,7 @@ print listTest #will print list 1,5,2,3,1,2,3,8
 passed then last element will be removed'''
 listTest.pop(4) #will remove element at postion 5
 print listTest #will print 1,5,2,3,2,3,8
+
+'''clear() will delete all the items from the list. Only available in python 3'''
+listTest.clear() #will remove all the items from the list
+print listTest #will print empty list
