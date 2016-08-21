@@ -32,3 +32,6 @@ print listTest #will print 1,5,2,3,2,3,8
 '''index(x) will return indices of value x (first occurance) in the list. will throw an error
 if element is not available'''
 print listTest.index(5) #will print 1 as 5 is at position 2
+
+'''count(x) returns number of times x appeared in list'''
+print listTest.count(3) #will return 2 as 3 appears twice.
